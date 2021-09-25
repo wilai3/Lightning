@@ -14,7 +14,7 @@ void setup(){
   
 }
 void draw(){
-  stroke(#16A7ED);
+  stroke((int)(Math.random()*255),(int)(Math.random()*255),(int)(Math.random()*255));
   while (endY > 0){
     endX = startX + ((int)(Math.random()*20-10));
     endY = startY - (int)(Math.random()*10);
